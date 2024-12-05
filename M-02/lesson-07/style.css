@@ -1,0 +1,17 @@
+h3 {
+    color: brown;
+}
+
+/*this is for id selector*/
+#myid1 {
+    color: beige;
+}
+
+#myid2 {
+    color: blueviolet;
+}
+
+/*this is for class selector*/
+.myclass1 {
+    color: red;
+}

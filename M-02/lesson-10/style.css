@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    color: red;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+/*child selector*/
+ul > li {
+    font-weight: bold;
+}
+
+/* :hover pseudo-class*/
+ul li:hover {
+    color: green;
+}
+
+ul li:nth-child(3) {
+    background-color: yellow;
+}

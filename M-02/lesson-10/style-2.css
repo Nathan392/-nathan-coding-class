@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkgreen;
+    color:lightseagreen;
+}
+
+h1 {
+    color: orange;
+}
+
+/*child selector*/
+ul > li {
+    font-weight: bold;
+}
+
+/* :hover pseudo-class*/
+ul li:hover {
+    color:darkcyan;
+}
+
+ul li:nth-child(3) {
+    background-color: yellow;
+}

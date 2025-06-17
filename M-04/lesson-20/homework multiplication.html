@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>home work multiplication</title>
+    </head>
+    <body>
+        <p>A function can access variable defined inside the function:</p>
+
+        <button type="button" onclick="myFunction()">Click Me!</button>
+        <p id="result"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+        <script>
+            function myFunction() {
+              var a = 8;
+              document.getElementById("result").innerHTML = a * a;
+            }
+            function myFunction() {
+              var a = 5;  
+              document.getElementById("result2").innerHTML = a + a;
+            }
+            function myFunction() {
+                var a= 7;
+             document.getElementById("result3").innerHTML = a - a;
+            }
+            function myFunction() {
+                var a= 2;
+              document.getElementById("result4").innerHTML = a / a;  
+            }
+        </script>
+    </body>
+</html>
